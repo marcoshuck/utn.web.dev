@@ -1,3 +1,3 @@
-let message: string = "Hola, ";
+let message = "Hola, ";
 message = "Marcos";
-console.log(message);
+console.log(message); // ¿Qué saldrá?
