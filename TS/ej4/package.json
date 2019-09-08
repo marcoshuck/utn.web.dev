@@ -1,0 +1,15 @@
+{
+  "name": "ej4",
+  "version": "1.0.0",
+  "description": "Ejemplo numero 4",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc main.ts --outFile index.js",
+    "start": "ts-node main.ts"
+  },
+  "author": "Marcos Huck",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^12.7.4"
+  }
+}
