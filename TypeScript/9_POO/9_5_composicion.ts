@@ -14,3 +14,9 @@ class Engine {
     this.started = false;
   }
 }
+
+function main() {
+  let car: Car = new Car();
+  console.log(car);
+}
+main();
