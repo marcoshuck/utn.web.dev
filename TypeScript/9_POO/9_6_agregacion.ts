@@ -21,3 +21,14 @@ class Stereo {
   public trademark: string;
   public mode: number;
 }
+
+function main() {
+  let car: Car = new Car();
+  let stereo: Stereo = new Stereo();
+  stereo.trademark = "Panasonic";
+  stereo.mode = 1;
+  console.log(car);
+  car.stereo = stereo;
+  console.log(car);
+}
+main();
